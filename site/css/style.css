@@ -1,0 +1,72 @@
+
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+}
+.menu-box{
+  float: left;
+  border: 1px solid black;
+  background-color: #d4cece;
+}
+.title{
+  width:30%;
+  height: 25px;
+  padding-top: 3px;
+  float: right;
+  border: 1px solid black;
+  text-align: center;
+  margin: -1px -1px 0 0;
+  font-weight: bold;
+
+}
+.description{
+  clear: both;
+  margin: 30px 10px 20px 20px;
+}
+
+#chicken{
+  background-color: #5cad5c;
+}
+#beef{
+  background-color: #e86262;
+}
+#sushi{
+  background-color: #d4cd2a;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .menu-box { 
+    width: 31.2%;
+    margin: 0 1% 0 1%;;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .menu-box {
+   width: 46%;
+   margin: 0 2% 0 2%
+  }
+  .last-menu-box {
+    width: 96%;
+    margin: 3% 2% 0 2%;
+  }
+  .last-menu-box .title{
+    width: 15%;
+  }
+}
+
+/********** Small devices only **********/
+@media (max-width: 767px){
+  .menu-box{
+    width: 86%;
+    margin: 0 7% 3% 7%;
+  }
+  .title{
+    width: 25%
+  }
+}
