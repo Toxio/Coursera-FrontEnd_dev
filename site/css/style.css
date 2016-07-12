@@ -14,12 +14,12 @@ h1 {
 .title{
   width:30%;
   height: 25px;
-  padding-top: 3px;
   float: right;
   border: 1px solid black;
   text-align: center;
   margin: -1px -1px 0 0;
   font-weight: bold;
+  font-size: 1.2em;
 
 }
 .description{
@@ -32,6 +32,7 @@ h1 {
 }
 #beef{
   background-color: #e86262;
+  color: white;
 }
 #sushi{
   background-color: #d4cd2a;
@@ -62,11 +63,11 @@ h1 {
 
 /********** Small devices only **********/
 @media (max-width: 767px){
-  .menu-box{
+  .menu-box, .last-menu-box {
     width: 86%;
     margin: 0 7% 3% 7%;
   }
   .title{
-    width: 25%
+    width: 25%;
   }
 }
