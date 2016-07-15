@@ -16,7 +16,7 @@ hr {
 
 
 @media (min-width: 768px){
-	.nav{
+	.navbar-default{
 		height: 50px;
 	}
 }
