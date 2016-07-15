@@ -4,8 +4,19 @@
 	background-color: #c7c1c1; 
 }
 
+.navbar-text {
+    margin-top: 10px;
+    margin-bottom: 0; 
+}
+
+hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
 @media (min-width: 768px){
-	.navbar{
+	.nav{
 		height: 50px;
 	}
 }
